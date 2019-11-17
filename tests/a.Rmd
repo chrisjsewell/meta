@@ -61,3 +61,11 @@ print(f"a = {a}")
 using Calculus
 derivative(x -> sin(x), 1.0)
 ```
+
+:::{.a}
+a
+:::
+
+:::
+b
+:::
