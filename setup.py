@@ -12,6 +12,9 @@ setup(
             "julia = imd_poc.chunks.julia:JuliaChunk",
             "note = imd_poc.chunks.note:NoteChunk",
         ],
+        "imd.engines": [
+            "ipython = imd_poc.engines.ipython:IPythonEngine"
+        ],
         "imd.references": [
             "ref = imd_poc.references:Ref",
             "cref = imd_poc.references:Cref",
